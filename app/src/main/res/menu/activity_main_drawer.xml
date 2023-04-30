@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_flashlights"
+            android:icon="@drawable/baseline_flashlight_on_24"
+            android:title="Flashlights"
+            app:action="@+id/action_fragment_home_to_fragment_application"/>
+        <item
+            android:id="@+id/nav_colored_lights"
+            android:icon="@drawable/baseline_light_mode_24"
+            android:title="Colored Lights"
+            app:action="@+id/action_fragment_home_to_fragment_application"
+            />
+        <item
+            android:id="@+id/nav_sos_alerts"
+            android:icon="@drawable/baseline_sos_24"
+            android:title="SOS Alerts"
+            app:action="@+id/action_fragment_home_to_fragment_application"
+            />
+    </group>
+
+
+
+</menu>
